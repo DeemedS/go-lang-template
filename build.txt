@@ -1,0 +1,5 @@
+go build -o bin/app.exe ./src
+go run src/main.go
+
+windres app.rc -O coff -o src/app.syso
+
